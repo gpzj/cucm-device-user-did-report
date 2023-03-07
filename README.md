@@ -6,21 +6,24 @@ This script was made for getting a rough estimate of User Vs Common Area Phone (
 
 This script requires 2 exported files from CUCM, 1. all devices and 2. all translation patterns. 
 
-1. To obtain the list of all devices, in CUCM CM Administration, navigate to "Bulk Administration" > "Phones" > "Export Phones" > "All Details"
+For device export:
+
+* To obtain the list of all devices, in CUCM CM Administration, navigate to "Bulk Administration" > "Phones" > "Export Phones" > "All Details"
+
+* Export "All Phone Types" and select "Run Immediately". Name the "File Name" and "Job Description" so you can recognize it.
+
+* You can check the status of this in "Bulk Administration" > "Job Scheduler". When complete, you can access the file in "Bulk Administration" > "Upload/Download Files".
 
 
-Export "All Phone Types" and select "Run Immediately". Name the "File Name" and "Job Description" so you can recognize it.
+For translation pattern export:
 
-You can check the status of this in "Bulk Administration" > "Job Scheduler". When complete, you can access the file in "Bulk Administration" > "Upload/Download Files".
+* To obtain the list of all devices, in CUCM CM Administration, navigate to "Bulk Administration" > "IMport/Export" > "Export"
 
+* Name the "File Name" and "Job Description" so you can recognize it.
 
-2. To obtain the list of all devices, in CUCM CM Administration, navigate to "Bulk Administration" > "IMport/Export" > "Export"
+* Select the "Translation Pattern" box under the "Call Routing Data" section.
 
-Name the "File Name" and "Job Description" so you can recognize it.
-
-Select the "Translation Pattern" box under the "Call Routing Data" section.
-
-You can check the status of this in "Bulk Administration" > "Job Scheduler". When complete, you can access the file in "Bulk Administration" > "Upload/Download Files". You will need to extract the csv from the tar file once downloaded. 
+* You can check the status of this in "Bulk Administration" > "Job Scheduler". When complete, you can access the file in "Bulk Administration" > "Upload/Download Files". You will need to extract the csv from the tar file once downloaded. 
 
 
 Save both files where you'd like, and update the script variables for this path location.

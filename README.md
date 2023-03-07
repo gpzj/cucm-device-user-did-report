@@ -17,7 +17,7 @@ For device export:
 
 For translation pattern export:
 
-* To obtain the list of all devices, in CUCM CM Administration, navigate to "Bulk Administration" > "IMport/Export" > "Export"
+* To obtain the list of all devices, in CUCM CM Administration, navigate to "Bulk Administration" > "Import/Export" > "Export"
 
 * Name the "File Name" and "Job Description" so you can recognize it.
 
